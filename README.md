@@ -37,3 +37,6 @@ We hereby place Installer.nsi itself in the **public domain**.  It is licensed a
 They are simply there to provide you with a reference, and you should *never* use them in your project.  The image files, specifically, include material that are (c) 2006 PANDAPENGUINS and (c) 2023 insani; these are explicitly **not in the public domain**.
 
 If you use this script in one of your translation projects, it is customary to, but not required to, credit insani.
+
+## History
+This installer script has a certain historical significance to the English novel game community, as it is the installer script that most early novel game translation projects used, when they had installers at all.  We widely shared earlier versions of this script with the community, and often participated in packaging other translation projects' RTM installer files for them.  We are now pleased to share this script more broadly.

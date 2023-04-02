@@ -1,6 +1,6 @@
 # insani.org Windows NSIS Installer Script
 ## Introduction
-This is a working NSIS installer script -- indeed it is the exact installer script that was used in the Radiata (http://insani.org/radiata.html) project.  It will work on any modern version of NSIS, and is confirmed working on the latest NSIS release (3.03 as of the time of this writing).
+This is a working NSIS installer script -- indeed it is the exact installer script that was used in the *Radiata* (http://insani.org/radiata.html) project.  It will work on any modern version of NSIS, and is confirmed working on the latest NSIS release (3.03 as of the time of this writing).
 
 ## File Structure
 This installer script requires the following directory structure (directories in **bold**, files in *italics*):
@@ -14,14 +14,14 @@ This installer script requires the following directory structure (directories in
   - **PRODUCT_NAME** (in this case, the full file path is C:\staging\Radiata)
     - all executable files and asset files for the completed translation reside here; for instance, for an ONScripter-insani-based translation, you would have PRODUCT_NAME.exe, 0.txt/nscript.dat, arc.nsa, etc.
 
-We have provided examples of all of the files, except for the files in PRODUCT_NAME, in this repository.  These examples are, just like the script itself, from our Radiata translation project.
+We have provided examples of all of the files, except for the files in PRODUCT_NAME, in this repository.  These examples are, just like the script itself, from our *Radiata* translation project.
 
 ## Output
 Once this script has run, you will get an installer executable called:
 
-- PRODUCT_NAMESetup.Windows.x86-64.exe 
+- *PRODUCT_NAMESetup.Windows.x86-64.exe*
 
-For instance, for Radiata, that's RadiataSetup.Windows.x86-64.exe.
+For instance, for *Radiata*, that's *RadiataSetup.Windows.x86-64.exe*.
 
 ## Legalese
 We hereby place Installer.nsi itself in the **public domain**.  It is licensed as CC0 1.0 Universal for that reason.  However, this is not true of the other files:

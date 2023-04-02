@@ -26,13 +26,13 @@ For instance, for Radiata, that's RadiataSetup.Windows.x86-64.exe.
 ## Legalese
 We hereby place Installer.nsi itself in the **public domain**.  It is licensed as CC0 1.0 Universal for that reason.  However, this is not true of the other files:
 
-- icon.ico
-- icon.png
-- unicon.ico
-- unicon.png
-- insani License.rtf
-- header.bmp
-- side.bmp
+- *icon.ico*
+- *icon.png*
+- *unicon.ico*
+- *unicon.png*
+- *insani License.rtf*
+- *header.bmp*
+- *side.bmp*
 
 They are simply there to provide you with a reference, and you should *never* use them in your project.  The image files, specifically, include material that are (c) 2006 PANDAPENGUINS and (c) 2023 insani; these are explicitly **not in the public domain**.
 

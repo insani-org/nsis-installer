@@ -36,7 +36,7 @@
 !define PRODUCT_VERSION "1.12E"
 !define PRODUCT_PUBLISHER "insani"
 !define PRODUCT_WEB_SITE "http://www.insani.org/"
-!define PRODUCT_DIR_REGKEY "Software\Microsoft\Windows\CurrentVersion\App Paths\Radiata.exe"
+!define PRODUCT_DIR_REGKEY "Software\Microsoft\Windows\CurrentVersion\App Paths\${PRODUCT_NAME}.exe"
 !define PRODUCT_UNINST_KEY "Software\Microsoft\Windows\CurrentVersion\Uninstall\${PRODUCT_NAME}"
 !define PRODUCT_UNINST_ROOT_KEY "HKCU"
 
@@ -115,7 +115,7 @@ Section "MainSection" SEC01
 SectionEnd
 
 Section -AdditionalIcons
-  CreateShortCut "$SMPROGRAMS\Radiata\Uninstall ${PRODUCT_NAME}.lnk" "$INSTDIR\uninst.exe"
+  CreateShortCut "$SMPROGRAMS\${PRODUCT_NAME}\Uninstall ${PRODUCT_NAME}.lnk" "$INSTDIR\uninst.exe"
 SectionEnd
 
 Section -Post

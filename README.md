@@ -1,4 +1,4 @@
-# insani.org Windows NSIS Installer
+# insani.org Windows NSIS Installer Script
 ## Introduction
 This is a working NSIS installer script -- indeed it is the exact installer script that was used in the Radiata (http://insani.org/radiata.html) project.  It will work on any modern version of NSIS, and is confirmed working on the latest NSIS release (3.03 as of the time of this writing).
 
